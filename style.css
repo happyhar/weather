@@ -56,15 +56,3 @@ button {
   .desc{
       font-size: 30px;
   }
-  .weather.loading{
-      visibility: hidden;
-      max-height: 20px;
-      top: 0;
-      position: relative;
-  }
-  .weather.loading:after{
-    visibility: visible;
-    content: "Loading...!";
-    color: white;
-    position: absolute;
-}
